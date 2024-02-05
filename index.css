@@ -1,0 +1,405 @@
+body{
+    max-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow-x: hidden !important;
+}
+
+@media only screen and  (min-width: 320px) and (max-width: 440px) {
+body{
+    background: rgba(248, 248, 248, 1);
+    overflow-x: hidden !important; 
+    margin: 0;
+    padding: 0;
+}
+
+.main__body .header{
+    background: linear-gradient(90deg, #d4cfcf 1.39%, #FFFFFF 100%);
+    height: 75px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 ;
+padding: 0;
+width: 100%;
+box-sizing: border-box;
+}
+
+
+
+.swiper-container{
+    width: 100%;
+    height: 50vh;
+
+}
+
+.swiper .swiper-button-next{
+color: white;
+display: flex;
+}
+
+.swiper-container .swiper-button-prev{
+    color: white;
+    display: flex;
+    margin-left: -12px;
+}
+
+
+.swiper-wrapper .main_container-icon_planshet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    width: 240px !important;
+    height: 72px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 7px;
+    border: 1px solid rgba(234, 234, 234, 1);
+    background-color: white;
+}
+
+
+
+.swiper-wrapper  .main_container-iconGo{
+width: 30px;
+height: 30px;
+margin-right: 40px;
+}
+
+.swiper-container+ .open_close-container {
+    display: none;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-wrapper  .main_container-iconLogo{
+    width: 108px;
+    height: 52px;
+    margin-left: 10px;
+}
+
+.swiper-container .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    line-height: 10px;
+    background-color: #e5dada; 
+    opacity: 0.7; 
+    
+}
+
+.swiper-container .swiper-pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 25px;
+    
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background-color:  rgb(192, 193, 198); 
+    opacity: 1; 
+}
+
+
+
+.swiper .swiper-slide{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 240px !important;
+    height: 72px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 7px;
+    border: 1px solid rgba(234, 234, 234, 1);
+    background-color: white;
+ }
+
+
+.swiper-wrapper{
+    margin-left: 20px;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.header__title{
+width: 320px;
+height: 48px;
+margin-left: 28px;
+margin-right: 16px;     
+font-size: 22px;
+line-height: 24px;
+letter-spacing: -0.20000000298023224px;
+text-align: left;
+font-family: "TT Lakes Neue Trial";    
+}
+
+#main_button-one, 
+#main_button-two{
+display: none;
+}
+
+@media only screen and (min-width: 449px) {
+.swiper-container .swiper-wrapper{
+display: none
+}
+}
+}
+
+
+
+
+
+
+/* ################################################################################################################ */
+@media only screen and  (min-width: 441px) {
+
+body{
+    background: rgba(248, 248, 248, 1);
+    margin-left: auto;
+    margin-right: auto;
+
+    margin: 0;
+    padding: 0;
+}   
+
+.swiper-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden !important;
+}
+
+.swiper-container .main_container-icon_planshet{
+    display: none;
+}
+.open_close-container {
+    display: none;
+}
+.main__body #main_button-one{
+    display: none;
+}
+
+.main__body .header{
+    width: 100%;
+    height: 68px;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, #e1dbdb 1.39%, #FFFFFF 100%);
+    display: flex;
+
+}
+
+p{
+    width: 338px;
+height: 24px;
+margin-top: 16px;
+margin-left: 24px;
+font-family: "TT Lakes Neue Trial"; 
+}
+
+.main__body #main_button-two{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-left: 24px;
+margin-top: 50px !important;
+width: 140px;
+height: 24px;
+} 
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next,
+.swiper .swiper-pagination {
+    display: none;
+}
+
+
+
+.mySwiper .swiper-slide {
+    width: 224px !important; 
+   height: 72px;
+    border: 1px solid rgb(190, 182, 182);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 1)
+    
+}
+
+.mySwiper{
+    overflow-x: hidden;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+.mySwiper .swiper-wrapper {
+    width: 100% !important;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 224px);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin: 30px;
+} 
+
+.main_container-iconLogo{
+width: 108px;
+height: 32px;
+margin-top: 10px;
+margin-left: 10px;
+}
+
+.main_container-iconGo{
+width: 40px;
+height: 40px;
+margin-top: 10px;
+margin-left: 10px;
+}
+
+
+
+}
+
+
+
+
+
+
+@media only screen  and  (min-width: 1120px){
+ body{
+    background: rgba(248, 248, 248, 1);
+}
+
+.header{
+    width: 100%;
+    background: linear-gradient(90deg, #d4cfcf 1.39%, #FFFFFF 100%);
+    height: 56px;
+
+    p{
+        font-family: "TT Lakes Neue Trial", sans-serif;
+        font-size: 26px;
+        line-height: 24px;
+        font-weight: 500;
+        letter-spacing: -0.20000000298023224px;
+        color: rgba(126, 126, 130, 1);
+        width: 538px;
+        height: 24px;
+        margin-top: 16px;
+        margin-left: 32px;
+        }
+}
+
+
+
+    .swiper .swiper-button-prev,
+.swiper .swiper-button-next,
+.swiper .swiper-pagination {
+    display: none;
+}
+
+.main__body #main_button-two{
+    display: none;
+}
+
+.mySwiper .swiper-wrapper {
+    width: auto !important;
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px !important;
+    margin-top: 70px;
+    margin: 30px;
+
+} 
+
+.swiper .swiper-slide{
+    width: 240px !important;
+    overflow-x: hidden;
+    height: 82px;
+    top: 8px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid rgb(193, 186, 186);
+    border-radius: 5px;
+}
+.swiper-container+ .open_close-container{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 240px);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px !important;
+    margin-top: -14px;
+    padding: 0;
+}
+
+.main_container-icon{
+    height: 82px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background:  linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid rgb(193, 186, 186);
+    border-radius: 5px;
+}
+
+.main_container-iconLogo{
+    margin-left: 10px;
+    width: 108px;
+height: 32px;
+top: 100px;
+}
+
+.main_container-iconGo{
+    width: 35px;
+    height: 35px;
+    top: 110px;
+    left: 233px;
+    }
+
+.swiper-wrapper .main_container-icon_planshet{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 82px;
+    margin-top: 8px;
+    background: 
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid rgb(193, 186, 186);
+    border-radius: 5px;
+}
+
+.main__body #main_button-one{
+    margin-top: 20px;
+    margin-left: 78px;
+    width: 133px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
