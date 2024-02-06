@@ -5,7 +5,7 @@ body{
     overflow-x: hidden !important;
 }
 
-@media only screen and  (min-width: 320px) and (max-width: 440px) {
+@media only screen and (max-width: 449px) {
 body{
     background: rgba(248, 248, 248, 1);
     overflow-x: hidden !important; 
@@ -157,22 +157,25 @@ display: none
 
 
 /* ################################################################################################################ */
-@media only screen and  (min-width: 441px) {
+@media only screen and  (min-width: 450px) {
 
 body{
     background: rgba(248, 248, 248, 1);
     margin-left: auto;
     margin-right: auto;
-
     margin: 0;
     padding: 0;
 }   
 
 .swiper-container {
+    width: min-content;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow-x: hidden !important;
+    width: 100%; 
+    margin: 0 auto; 
+    
 }
 
 .swiper-container .main_container-icon_planshet{
@@ -232,20 +235,23 @@ height: 24px;
 }
 
 .mySwiper{
-    overflow-x: hidden;
-width: 100%;
-margin: 0;
-padding: 0;
+width: 100% !important;
+margin: 0px ;
+padding: 0px;
+overflow-x: hidden;
 }
 
-.mySwiper .swiper-wrapper {
-    width: 100% !important;
+.swiper-container .swiper-wrapper {
+    width: 100%;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 224px);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
-    margin: 30px;
+    margin-left: 0px;
+    margin-right: 0;
+    margin-top: 30px;
+    
 } 
 
 .main_container-iconLogo{
